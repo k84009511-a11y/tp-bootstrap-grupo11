@@ -1,0 +1,63 @@
+/*contacto.css
+estilos personalizados para contacto.html
+Tema: Turismo Formosa*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*paleta de colores*/
+:root {
+--celeste-oscuro:  #4b718c;
+--celeste-2:       #688eaa;
+--celeste-3:       #86acc9;
+--celeste-medio:   #a4cbe9;
+--celeste-claro:   #bfe0fa;
+--celeste-5:       #d5eafc;
+--celeste-palido:  #eaf5fd;
+--blanco:          #ffffff;
+
+/*seccion hero de contacto*/
+.contacto-hero {
+    background-color: linear-gradient(135deg, var(--celeste-oscuro )0% var(--celeste-3)100);
+    padding: 3.5rem 1rem 2.5rem;
+    text-aling: center;
+    color: #fff;
+}
+
+.contacto-hero h1 {
+    font-size: 2.2rem;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+
+/*opacity controla que tan transparente es un elemento */
+.contacto-hero p {
+    font-size: 1.05rem;
+    opacity: .88;
+}
+
+/*/tarjeta de datos*/
+.card-dato {
+    border: none;
+    border-radius: 14px;
+    background: var(--celeste-palido);
+    transition: transform .2s, box-shadow .2s;
+}
+
+.card-dato:hover {
+    transform: translate(-4px);
+    box-shadow: 0 8px 22px rgba(75, 113, 140, 18);
+}
+
+.card-dato .icono {
+    font-size: 2rem;
+    color: var(--celeste-oscuro);
+}
+
+.card-dato .card-text {
+    color: #2c3545;
+    font-size: .97rem;
+}
