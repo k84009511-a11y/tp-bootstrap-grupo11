@@ -9,21 +9,20 @@
   --scheme-color-7: #eaf5fd;
   --scheme-color-8: #ffffff;
   --scheme-color-9: #2E8B57;
+  --scheme-color-10: #226840;
+  --scheme-color-11: #29a35e;
 }
-
 .introduccion h2 {
     margin-left: auto;
     margin-right: auto;
     justify-content: center;
     max-width: 500px;
-    background-color: var(--scheme-color-6);
+      background-color: var(--scheme-color-6);
     color: var(--scheme-color-9);
     border: 2px var(--scheme-color-4) solid;
     border-radius: 20px;
 }
 .introduccion p {
-    border: 2px var(--scheme-color-5) solid;
-    background-color: var(--scheme-color-7);
     border-radius: 8px;
     margin: auto;
     padding: 20px;
@@ -33,24 +32,18 @@
     margin-right: auto;
     justify-content: center;
     max-width: 300px;
-    background-color: var(--scheme-color-6);
+      background-color: var(--scheme-color-6);
     color: green;
-    border: 2px var(--scheme-color-4) solid;
-border-radius: 20px;
+    border: 2px var(--scheme-color-4) solid; 
+    border-radius: 20px;
 }
 .Historia p{
-        border: 2px var(--scheme-color-5) solid;
-    background-color: var(--scheme-color-7);
-    border-radius: 8px;
     margin-top: 20px;
     padding: 20px;
 }
 
 
 .Bandera p{
-        border: 2px var(--scheme-color-5) solid;
-    background-color: var(--scheme-color-7);
-    border-radius: 8px;
     padding: 20px;
     margin: auto;
 }
@@ -58,16 +51,19 @@ border-radius: 20px;
     margin-right: auto;
     justify-content: center;
     max-width: 300px;
-    background-color: var(--scheme-color-6);
+      background-color: var(--scheme-color-6);
     color: green;
     border: 2px var(--scheme-color-4) solid;
 border-radius: 20px;
 }
 
+.Bandera img{
+    max-width: 100%;
+    height: auto;
+    border-radius: 15px; 
+}
 
 .Escudo p{
-        border: 2px var(--scheme-color-5) solid;
-    background-color: var(--scheme-color-7);
     border-radius: 8px;
     padding: 20px;
     margin: auto;
@@ -77,15 +73,10 @@ border-radius: 20px;
     margin-right: auto;
     justify-content: center;
     max-width: 300px;
-    background-color: var(--scheme-color-6);
+      background-color: var(--scheme-color-6);
     color: green;
     border: 2px var(--scheme-color-4) solid;
     border-radius: 20px;
-}
-.Bandera img{
-    max-width: 100%;
-    height: auto;
-    border-radius: 15px; 
 }
 .Escudo img {
     max-width: 100%; 
