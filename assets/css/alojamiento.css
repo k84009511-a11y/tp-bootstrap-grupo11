@@ -1,0 +1,43 @@
+:root {
+  --color-fondo: #c2cbd1;
+  --color-principal: #022d26;
+  --color-secundario: #768719;
+}
+
+/* Fondo general */
+body {
+  background-color: var(--color-fondo);
+}
+
+/* Navbar */
+.navbar {
+  background-color: var(--color-principal) !important;
+}
+
+/* Footer */
+footer {
+  background-color: var(--color-principal);
+  color: rgb(218, 200, 112);
+}
+
+/* Cards */
+.card {
+  transition: transform 0.3s;
+}
+
+.card:hover {
+  transform: scale(1.05);
+}
+
+/* Imágenes */
+.card-img-top {
+  height: 200px;
+  width: 100%;
+  object-fit: cover;
+}
+
+.carousel-item img {
+  height: 400px;
+  width: 100%;
+  object-fit: cover;
+}
