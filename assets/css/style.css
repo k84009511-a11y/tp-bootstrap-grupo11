@@ -94,4 +94,10 @@ p {
 nav.navbar{
     background-color: var(--color-navbar) !important;
 }
+footer {
+    background-color: var(--color-navbar);
+   font{
+    color: white;
+   }
+}
 /*---------------------------------- Seccion de index css----------------------------------*/
