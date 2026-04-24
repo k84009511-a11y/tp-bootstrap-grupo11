@@ -23,7 +23,7 @@ Tema: Turismo Formosa*/
 .contacto-hero {
     background-color: linear-gradient(135deg, var(--celeste-oscuro )0% var(--celeste-3)100);
     padding: 3.5rem 1rem 2.5rem;
-    text-aling: center;
+    text-align: center;
     color: #fff;
 }
 
@@ -60,4 +60,105 @@ Tema: Turismo Formosa*/
 .card-dato .card-text {
     color: #2c3545;
     font-size: .97rem;
+}
+
+/*Horarios*/
+.horarios-section {
+    background: var(--celeste-palido);
+    border-radius: 14px;
+}
+
+.horarios-section h2 {
+    color: var(--celeste-oscuro);
+    font-weight: 700;
+}
+
+.horarios-fila {
+    border-bottom: 1px dashed var(--celeste-claro);
+    padding: .55rem 0;
+    color: #2c3545;
+}
+
+.horario-fila:last-child {
+    border-bottom: none;
+}
+
+.horario-dia {
+    font-weight: 600;
+    color: var(--celeste-2);
+}
+
+/*formularaio*/
+.form-section {
+    background: #fff;
+    border-radius: 14px;
+    box-shadow: 0 4px 18px rgba(77, 113, 140, .10);
+}
+
+.form-section h2 {
+    color: var(--celeste-oscuro);
+    font-weight: 700;
+}
+.form-control:focus,
+.form-select:focus {
+    border-color: var(--celeste-medio);
+    box-shadow: 0 0 0 .22rem rgb(164, 203, 233, .38);
+}
+
+.btn-enviar {
+    background-color: var(--celeste-oscuro);
+    border: none;
+    color: #fff;
+    font-weight: 600;
+    padding: .65rem 2rem;
+    border-radius: 8px;
+    transition: background .2s;
+}
+
+.btn-enviar:hover {
+    background-color: var(--celeste-2);
+    color: #fff;
+}
+
+/*Redes sociales*/
+.redes-section {
+    background: linear-gradient(135deg, var(--celeste-oscuro) 0%, var(--celeste-3) 100%);
+    border-radius: 14px;
+    color: #fff;
+}
+
+.redes-section h2 {
+    font-weight: 700;
+}
+
+.btn-red {
+    background: rgba(255, 225, 255, .18);
+    border: 2px solid rgba (225, 255, 255, .55);
+    color: #fff;
+    border-radius: 50px;
+    padding: .55trm1.4rem;
+    font-size: 1rem;
+    display: inline-flex;
+    align-items: center;
+    gap: .5rem;
+    transition: background .2s, border-color .2s;
+    text-decoration: none;
+}
+
+.btn-red:hover {
+    background: rgba(255, 255, 255, .35);
+    border-color: #fff;
+    color: #fff;
+}
+
+/*mapa*/
+.mapa-section h2 {
+    color: var(--celeste-oscuro);
+    font-weight: 700;
+}
+
+.mapa-wrapper {
+    border-radius: 14px;
+    overflow: hidden;
+    border: 3px solid var(--celeste-claro);
 }
