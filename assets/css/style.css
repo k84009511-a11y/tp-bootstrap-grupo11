@@ -11,6 +11,7 @@
   --scheme-color-9: #2E8B57;
   --scheme-color-10: #226840;
   --scheme-color-11: #29a35e;
+  --color-navbar: #022d26;
 }
 .introduccion h2 {
     margin-left: auto;
@@ -89,5 +90,8 @@ p {
     text-align: justify; 
     color: #333; 
     font-size: 1.05rem;
+}
+nav.navbar{
+    background-color: var(--color-navbar) !important;
 }
 /*---------------------------------- Seccion de index css----------------------------------*/
