@@ -22,10 +22,10 @@ Tema: Turismo Formosa*/
 
 /*seccion hero de contacto*/
 .contacto-hero {
-    background-color: linear-gradient(135deg, var(--celeste-oscuro )0% var(--celeste-3)100);
+    background-color: linear-gradient(135deg, var(--celeste-oscuro ) 0%, var(--celeste-3)100%);
     padding: 3.5rem 1rem 2.5rem;
     text-align: center;
-    color: #fff;
+    color: var(--celeste-2);
 }
 
 .contacto-hero h1 {
@@ -44,13 +44,14 @@ Tema: Turismo Formosa*/
 .card-dato {
     border: none;
     border-radius: 14px;
-    background: var(--celeste-palido);
+    background: var(--celeste-palido) !important;
+    box-shadow: 0 4px 12px rgba(75, 113, 140, .20);
     transition: transform .2s, box-shadow .2s;
 }
 
 .card-dato:hover {
-    transform: translate(-4px);
-    box-shadow: 0 8px 22px rgba(75, 113, 140, 18);
+    transform: translateY(-4px);
+    box-shadow: 0 8px 22px rgba(75, 113, 140, .18) !important;
 }
 
 .card-dato .icono {
@@ -58,9 +59,18 @@ Tema: Turismo Formosa*/
     color: var(--celeste-oscuro);
 }
 
+.card-dato .card-title {
+    color: var(--celeste-oscuro);
+    font-weight: 700;
+    font-size: .95rem;
+    text-transform: uppercase;
+    letter-spacing: .5px;
+}
+
 .card-dato .card-text {
-    color: #2c3545;
+    color: var(--celeste-2);
     font-size: .97rem;
+    font-weight: 500;
 }
 
 /*Horarios*/
@@ -91,7 +101,7 @@ Tema: Turismo Formosa*/
 
 /*formularaio*/
 .form-section {
-    background: #fff;
+    background: var(--celeste-palido);
     border-radius: 14px;
     box-shadow: 0 4px 18px rgba(77, 113, 140, .10);
 }
@@ -113,7 +123,8 @@ Tema: Turismo Formosa*/
     font-weight: 600;
     padding: .65rem 2rem;
     border-radius: 8px;
-    transition: background .2s;
+    border: none !important;
+    transition: background-color .2s;
 }
 
 .btn-enviar:hover {
@@ -137,12 +148,12 @@ Tema: Turismo Formosa*/
     border: 2px solid rgba (225, 255, 255, .55);
     color: #fff;
     border-radius: 50px;
-    padding: .55trm1.4rem;
+    padding: .55rem.4rem;
     font-size: 1rem;
     display: inline-flex;
     align-items: center;
     gap: .5rem;
-    transition: background .2s, border-color .2s;
+    transition: background-color .2s, color .2s;
     text-decoration: none;
 }
 
@@ -162,4 +173,17 @@ Tema: Turismo Formosa*/
     border-radius: 14px;
     overflow: hidden;
     border: 3px solid var(--celeste-claro);
+}
+
+.mapa-wrapper iframe {
+    width: 100%;
+}
+
+/*Footer*/
+
+footer {
+    background-color: #0dcaf0 !important;
+    color: #000;
+    margin: 0 !important;
+    padding-bottom: 0 !important;
 }
