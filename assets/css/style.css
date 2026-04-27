@@ -95,9 +95,10 @@ nav.navbar{
     background-color: var(--color-navbar) !important;
 }
 footer {
-    background-color: var(--color-navbar);
-   font{
-    color: white;
-   }
+    background-color: #0dcaf0 !important;
+    color: #fff;
+    margin: 0 !important;
+    padding: 0 !important;
 }
+
 /*---------------------------------- Seccion de index css----------------------------------*/
